@@ -6,11 +6,15 @@
 const greetings = { message: "Hello, earthling! I bring peace." };
 
 // Log the message 
+console.log(greetings.message);
 
 // --------------------------------------
 // Exercise 2 - Defining an object.
 
 // Create an object that has your name and age. 
+const me = {name:"Mette", age:51};
+
+console.log(me);
 
 
 // --------------------------------------
@@ -19,6 +23,9 @@ const greetings = { message: "Hello, earthling! I bring peace." };
 const stackOverflow = {};
 
 // make a rule called isAllowed and let the value be true
+stackOverflow.isAllowed = true;
+
+console.log(stackOverflow);
 
 // --------------------------------------
 // Exercise 4 - Remove a property
