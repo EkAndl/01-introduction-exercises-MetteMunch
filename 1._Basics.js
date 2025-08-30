@@ -27,6 +27,8 @@ const currentYearFirstSolution = Number(year) + increment;
 const solutionTwo = parseInt(year) + increment;
 const solutionThree = +year + increment;
 
-console.log(`Løsningen er: ${currentYearFirstSolution}`);
+console.log(`Løsning 1 er: ${currentYearFirstSolution}`);
+console.log(`Løsning 2 er: ${solutionTwo}`);
+console.log(`Løsning 3 er: ${solutionThree}`);
 // --------------------------------------
 
