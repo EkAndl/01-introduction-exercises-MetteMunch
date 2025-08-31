@@ -23,7 +23,7 @@ console.log(me);
 const stackOverflow = {};
 
 // make a rule called isAllowed and let the value be true
-stackOverflow.isAllowed = true;
+stackOverflow.isAllowed = true; //Jeg er ikke sikker på, at jeg har forstået dette spg korrekt?
 
 console.log(stackOverflow);
 
@@ -33,6 +33,12 @@ console.log(stackOverflow);
 const thisSong = { description: "The best song in the world." };
 
 // remove the property "description" and add a property called "about" that should say "Just a tribute." 
+
+delete thisSong.description;
+
+
+thisSong.about = "Just a tribute";  
+console.log(thisSong);
 
 
 // --------------------------------------
