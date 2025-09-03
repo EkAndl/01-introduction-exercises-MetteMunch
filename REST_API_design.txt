@@ -4,6 +4,7 @@ URI                     HTTP request            Desp
 /planets/new            GET                     Get form for adding a new planet (if one has been discovered!)
 /planets/{name}/edit    GET                     Get form for updating data on a planet
 /planets                POST                    Save a new planet
-/planets/{name}         PUT                     Update a planet
+/planets/{name}         PUT                     Update a planet (the entire ressource)
+/planets/{name}         PATCH                   Update a planet (only the edited parameter in the ressource)
 /planets/{name}         DELETE                  Delete planet
 
