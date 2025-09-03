@@ -1,0 +1,9 @@
+URI                     HTTP request            Desp
+/planets                GET                     Get all planets
+/planets/{name}         GET                     Get planets with name
+/planets/new            GET                     Get form for adding a new planet (if one has been discovered!)
+/planets/{name}/edit    GET                     Get form for updating data on a planet
+/planets                POST                    Save a new planet
+/planets/{name}         PUT                     Update a planet
+/planets/{name}         DELETE                  Delete planet
+
