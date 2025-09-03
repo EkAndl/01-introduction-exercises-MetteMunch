@@ -1,0 +1,25 @@
+{
+  "name": "01-introduction-exercises-mettemunch",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PjyPqM7D)\r # Node_01_Introduction_Exercises",
+  "main": "1._Basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkAndl/01-introduction-exercises-MetteMunch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkAndl/01-introduction-exercises-MetteMunch/issues"
+  },
+  "homepage": "https://github.com/EkAndl/01-introduction-exercises-MetteMunch#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0"
+  }
+}
